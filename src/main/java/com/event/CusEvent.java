@@ -9,8 +9,11 @@ package com.event;
 import java.util.EventObject;
 
 public class CusEvent extends EventObject {
+
     private static final long serialVersionUID = 1L;
-    private Object source;//事件源
+
+    //事件源
+    private Object source;
 
     public CusEvent(Object source){
         super(source);

@@ -12,6 +12,7 @@ import java.util.Set;
 
 
 public class EventSourceObject {
+
     private String name;
     //监听器容器
     private Set<CusEventListener> listener;
