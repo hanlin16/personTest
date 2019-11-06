@@ -39,6 +39,7 @@ public class RPCServerImpl implements RPCServer {
 
         try {
             while (true) {
+                System.out.println("1");
                 // 1.监听客户端的TCP连接，接到TCP连接后将其封装成task，由线程池执行
                 executor.execute(new ServiceTask(server.accept()));
             }
@@ -63,6 +64,7 @@ public class RPCServerImpl implements RPCServer {
         Socket clent = null;
 
         public ServiceTask(Socket client) {
+            System.out.println("2");
             this.clent = client;
         }
 
