@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e5105ee-4b10-403f-9710-4a2f0d07713a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testAop/LogPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testAop/BusinessServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testAop/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testAop/BusinessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testAop/PrinterAspectConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testAop/AopConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testAop/ZAopMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testAop/SpringAopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +46,69 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/num/ToNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BeansConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BusinessServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/AopConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BusinessService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/SpringAopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -102,6 +161,7 @@
       <find>recoveryCallback</find>
       <find>tryTimes</find>
       <find>INTERVALTIME</find>
+      <find>...</find>
     </findStrings>
     <replaceStrings>
       <replace>sf.format(new Date())</replace>
@@ -117,12 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/aop2/Counter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/aop2/Piano.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/PrinterAspectConf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/Printable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lock/UserBankInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lock/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/lock/Itest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lock/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/lock/Tools.java" />
@@ -168,6 +222,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/ZAopMainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/SpringAopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/AopConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/Printable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/BusinessService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testAop/BusinessServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -266,25 +326,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="num" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redis-lock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redis-lock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="retry" type="462c0819:PsiDirectoryNode" />
+              <item name="testAop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redis-lock" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +372,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringRetry1">
+  <component name="RunManager">
+    <configuration name="SpringAopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testAop.SpringAopTest" />
+      <module name="redis-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringRetry1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.retry.SpringRetry1" />
       <module name="redis-lock" />
@@ -350,19 +405,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.retry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRedissonLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.redis.TestRedissonLock" />
-      <module name="redis-lock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringAopTest" />
         <item itemvalue="Application.TestRetry" />
         <item itemvalue="Application.SpringRetry2" />
         <item itemvalue="Application.SpringRetry1" />
         <item itemvalue="Application.ToNum" />
-        <item itemvalue="Application.TestRedissonLock" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +472,7 @@
       <workItem from="1572832069622" duration="9958000" />
       <workItem from="1573020219929" duration="3233000" />
       <workItem from="1573025682164" duration="8160000" />
-      <workItem from="1573091094899" duration="31000" />
+      <workItem from="1573091094899" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="的">
       <created>1569751643722</created>
@@ -481,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573036289306</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="个人更新">
+      <created>1573091131420</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573091131420</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51916000" />
+    <option name="totallyTimeSpent" value="52333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -501,7 +550,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.45986986" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.36550975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.5065076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3438178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,7 +674,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/testAop/PrinterAspectConf.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/testAop/AopConfig.java</url>
           <line>18</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -671,39 +720,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/io/TestClient2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2077#2078#0" expanded="true" />
-            <element signature="e#2110#2111#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/event/tt.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Server/Java/jdk1.8.0_172/src.zip!/java/util/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/event/EventSourceObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1013,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/num/ToNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/RetryDot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1071,6 +1080,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/num/ToNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/SpringAopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BusinessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/BeansConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testAop/AopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>

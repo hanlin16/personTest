@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-public class PrinterAspectConf {
+public class AopConfig {
 
     @Pointcut("execution(* com.testAop..*(..))")
     private void pointCut() {
