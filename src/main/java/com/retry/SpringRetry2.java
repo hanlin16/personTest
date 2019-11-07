@@ -5,7 +5,6 @@ import org.springframework.retry.RetryCallback;
 import org.springframework.retry.RetryContext;
 import org.springframework.retry.backoff.FixedBackOffPolicy;
 import org.springframework.retry.policy.SimpleRetryPolicy;
-import org.springframework.retry.policy.TimeoutRetryPolicy;
 import org.springframework.retry.support.RetryTemplate;
 
 import java.util.Collections;
@@ -16,7 +15,7 @@ import java.util.Random;
  * @version 1.0
  * @date 2019-11-06 17:39
  */
-public class SpringRetry {
+public class SpringRetry2 {
 
     public static Boolean vpmsRetryCoupon(final String userId) {
         // 构建重试模板实例

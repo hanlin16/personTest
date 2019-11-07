@@ -11,7 +11,7 @@ import org.springframework.retry.support.RetryTemplate;
  * @version 1.0
  * @date 2019-11-06 18:01
  */
-public class SrpingRetry2 {
+public class SpringRetry1 {
 
 
     public static void main(String[] args) throws Exception {

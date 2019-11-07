@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e5105ee-4b10-403f-9710-4a2f0d07713a" name="Default Changelist" comment="个人更新">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casLock/IConcurrentLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casLock/Itest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casLock/NoAtomicOperationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hash/TestHashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/redis/TestRedissonLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/retry/RetryAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/retry/RetryDot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/retry/TestRetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+    <list default="true" id="4e5105ee-4b10-403f-9710-4a2f0d07713a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-lock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-lock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/io/TestInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/redis/RedissonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rpc/RPCServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rpc/RPCServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,11 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/TestRetry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="14" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/ZAopMainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testAop/BeansConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testAop/aop2/Counter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testAop/aop2/Piano.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testAop/PrinterAspectConf.java" />
@@ -144,13 +159,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/redis/RedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/redis/RedissonLockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/redis/TestRedissonLock.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/retry/RetryDot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/retry/RetryAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/retry/Retry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/retry/TestRetry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -203,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -313,9 +330,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="SpringRetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.retry.SpringRetry" />
+  <component name="RunManager" selected="Application.SpringRetry1">
+    <configuration name="SpringRetry1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.retry.SpringRetry1" />
       <module name="redis-lock" />
       <extension name="coverage">
         <pattern>
@@ -327,8 +344,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SrpingRetry2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.retry.SrpingRetry2" />
+    <configuration name="SpringRetry2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.retry.SpringRetry2" />
       <module name="redis-lock" />
       <extension name="coverage">
         <pattern>
@@ -382,8 +399,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestRetry" />
-        <item itemvalue="Application.SrpingRetry2" />
-        <item itemvalue="Application.SpringRetry" />
+        <item itemvalue="Application.SpringRetry2" />
+        <item itemvalue="Application.SpringRetry1" />
         <item itemvalue="Application.ToNum" />
         <item itemvalue="Application.TestRedissonLock" />
       </list>
@@ -412,7 +429,8 @@
       <workItem from="1572602358424" duration="390000" />
       <workItem from="1572832069622" duration="9958000" />
       <workItem from="1573020219929" duration="3233000" />
-      <workItem from="1573025682164" duration="6851000" />
+      <workItem from="1573025682164" duration="8160000" />
+      <workItem from="1573091094899" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="的">
       <created>1569751643722</created>
@@ -456,17 +474,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572602623540</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="个人更新">
+      <created>1573036289306</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573036289306</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50576000" />
+    <option name="totallyTimeSpent" value="51916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16257995" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,7 +501,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.45986986" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.36550975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.36550975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3438178" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,7 +643,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java</url>
           <line>71</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -988,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/num/ToNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1002,32 +1020,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SrpingRetry2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/RetryDot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="68" column="35" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="68" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#572#609#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,11 +1039,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/TestRetry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="14" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/retry/SpringRetry2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
