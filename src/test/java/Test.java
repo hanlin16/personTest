@@ -1,4 +1,5 @@
 import java.sql.Timestamp;
+import java.text.DecimalFormat;
 import java.util.Date;
 
 /**
@@ -24,6 +25,14 @@ public class Test {
         System.out.println(a);
         System.out.println(b);
         System.out.println(date2);
+
+        String st = null;
+        String abc ="234";
+        System.out.println(abc.equals(st));
+
+        DecimalFormat df = new DecimalFormat("#.00");
+        String totalPremium = df.format(0);
+        System.out.println(totalPremium);
 
     }
 
