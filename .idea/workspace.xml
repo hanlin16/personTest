@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e5105ee-4b10-403f-9710-4a2f0d07713a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callBack/CallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callBack/CallBckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callBack/CallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callBack/CallbackServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callBack/MainBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/callback2/AsyncCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/callback2/Mother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/callback2/Son.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-lock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-lock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callBack/CallBack.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,95 +23,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/Mother.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="198">
+              <caret line="27" column="13" lean-forward="true" selection-end-line="42" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallbackService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="1" lean-forward="true" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallbackServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/MainBusiness.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="28" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallBckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallBack.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/Son.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="184">
+              <caret line="15" column="5" lean-forward="true" selection-end-line="35" />
               <folding>
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#1382#1383#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Server/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/AsyncCallBack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53196">
-              <caret line="2497" column="25" selection-start-line="2497" selection-start-column="25" selection-end-line="2497" selection-end-column="25" />
+            <state relative-caret-position="154">
+              <caret line="7" column="18" lean-forward="true" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -135,7 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Pointcut</find>
       <find>AnnotationConfigApplicationContext</find>
       <find>spring-core</find>
       <find>basePackages</find>
@@ -165,6 +99,7 @@
       <find>00a</find>
       <find>00</find>
       <find>-------------</find>
+      <find>儿子</find>
     </findStrings>
     <replaceStrings>
       <replace>sf.format(new Date())</replace>
@@ -173,6 +108,7 @@
       <replace>TRYTIMES</replace>
       <replace>INTERVALTIME</replace>
       <replace>*********</replace>
+      <replace>小明</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,12 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/io/TestInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/io/TestClient2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/io/ServerConnect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/event/tt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/event/EventSourceObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/event/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/event/CusEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/event/CusEventListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/casLock/BlockLock.java" />
@@ -232,6 +162,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/callBack/CallbackServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/callBack/CallBckTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/callBack/CallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callBack/AysncCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callBack/AsysncCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callBack/AsyncCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callback2/AsyncCallBack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callback2/Mother.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/callback2/Son.java" />
       </list>
     </option>
   </component>
@@ -319,6 +255,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="callBack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis-lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="callback2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redis-lock" type="b2602c69:ProjectViewProjectNode" />
@@ -440,12 +385,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CallBckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.callBack.CallBckTest" />
+    <configuration name="AsyncCallBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.callback2.AsyncCallBack" />
       <module name="redis-lock" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.callBack.*" />
+          <option name="PATTERN" value="com.callback2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -453,9 +398,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateTimeCheck" />
+    <configuration name="CallBckTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.callBack.CallBckTest" />
       <module name="redis-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.callback2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -489,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsyncCallBack" />
         <item itemvalue="Application.CallBckTest" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.TestListStream" />
-        <item itemvalue="Application.DateTimeCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +487,7 @@
       <workItem from="1576719962071" duration="260000" />
       <workItem from="1576734044322" duration="603000" />
       <workItem from="1583907446374" duration="676000" />
-      <workItem from="1585788387822" duration="2573000" />
+      <workItem from="1585788387822" duration="8467000" />
     </task>
     <task id="LOCAL-00001" summary="的">
       <created>1569751643722</created>
@@ -608,17 +559,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576135025943</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="个人更新">
+      <created>1585796279045</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585796279045</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74755000" />
+    <option name="totallyTimeSpent" value="80649000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -627,9 +585,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.45986986" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4154013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26789588" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31453362" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.4078091" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38828632" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -655,7 +613,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14712153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -664,9 +622,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.45986986" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.29934925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26789588" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31453362" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.17895879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34164858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -678,7 +636,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.4143167" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.40347072" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.37310195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -814,24 +772,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rpc/RPCServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="20" />
-          <folding>
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hash/TestHashCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.3.2/redisson-3.3.2.jar!/org/redisson/api/RLock.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1165,13 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallbackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallbackServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1192,20 +1125,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallBckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="217">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallBack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/callBack/CallbackService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/AsyncCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="true" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/Mother.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="13" lean-forward="true" selection-end-line="42" />
           <folding>
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/callback2/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="5" lean-forward="true" selection-end-line="35" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
