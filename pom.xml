@@ -14,6 +14,13 @@
         <version>1.5.2.RELEASE</version>
     </parent>
 
+
+    <properties>
+
+        <okhttp.version>3.13.1</okhttp.version>
+
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.redisson</groupId>
@@ -141,6 +148,16 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.21</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
         </dependency>
 
 
