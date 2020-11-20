@@ -41,39 +41,39 @@ public class RetryHelper {
         }, 1000);
     }
 
-    public  void doRetry(RetryTask retryTask){
-        doRetry(DEFAULT_RETRY_TIMES, DEFAULT_DELAY_SECONDS, retryTask);
+    public  void doRetry(Task task){
+        doRetry(DEFAULT_RETRY_TIMES, DEFAULT_DELAY_SECONDS, task);
     }
 
-    public  void doRetry(int maxRetryTime, RetryTask retryTask){
-        doRetry(maxRetryTime, DEFAULT_DELAY_SECONDS, retryTask);
+    public  void doRetry(int maxRetryTime, Task task){
+        doRetry(maxRetryTime, DEFAULT_DELAY_SECONDS, task);
     }
 
-    public  void doRetry(int[] retryDelaySeconds, RetryTask retryTask){
-        doRetry(retryDelaySeconds.length, retryDelaySeconds, retryTask);
+    public  void doRetry(int[] retryDelaySeconds, Task task){
+        doRetry(retryDelaySeconds.length, retryDelaySeconds, task);
     }
 
     /**
      * @param maxRetryTime      最大重试次数
      * @param retryDelaySeconds 每次重试间隔时间数组
-     * @param retryTask         需要重试的任务
+     * @param task         需要重试的任务
      */
-    public  void doRetry(final int maxRetryTime,final int[] retryDelaySeconds,final RetryTask retryTask){
-        Runnable runnable = new RetryRunnable(maxRetryTime, retryDelaySeconds, retryTask);
+    public  void doRetry(final int maxRetryTime,final int[] retryDelaySeconds,final Task task){
+        Runnable runnable = new RetryRunnable(maxRetryTime, retryDelaySeconds, task);
         executor.execute(runnable);
     }
 
     private static class RetryRunnable implements Runnable {
 
-        private final RetryTask retryTask;
+        private final Task task;
         private final int maxRetryTimes;
         private final int[] retryDelaySeconds;
 
         private int retryTimes;
         private volatile long nextRetryMillis;
 
-        public RetryRunnable(final int maxRetryTimes, final int[] retryDelaySeconds, final RetryTask retryTask) {
-            this.retryTask = retryTask;
+        public RetryRunnable(final int maxRetryTimes, final int[] retryDelaySeconds, final Task task) {
+            this.task = task;
             if (maxRetryTimes <= 0) {
                 this.maxRetryTimes = DEFAULT_RETRY_TIMES;
             }else {
@@ -89,7 +89,7 @@ public class RetryHelper {
         @Override
         public void run() {
             try {
-                retryTask.run();
+                task.run();
             } catch (Throwable e) {
                 int sleepSeconds = retryTimes < retryDelaySeconds.length ? retryDelaySeconds[retryTimes] : retryDelaySeconds[retryDelaySeconds.length - 1];
                 if (retryTimes < maxRetryTimes) {
@@ -102,9 +102,9 @@ public class RetryHelper {
                     nextRetryMillis = System.currentTimeMillis() + sleepSeconds * 1000;
                 }else {
                     log.error("retry " + retryTimes + " times error", e);
-                    log.error("retry snapshot: {}", JSON.toJSONStringWithDateFormat(retryTask.snapshot(), "yyyy-MM-dd HH:mm:ss"));
+                    log.error("retry snapshot: {}", JSON.toJSONStringWithDateFormat(task.snapshot(), "yyyy-MM-dd HH:mm:ss"));
                     TASK_QUEUE.remove(this);
-                    retryTask.retryFailed(e);
+                    task.retryFailed(e);
                 }
                 retryTimes++;
             }

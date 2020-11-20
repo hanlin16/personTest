@@ -38,7 +38,7 @@ public class IRetryTest {
 
     private void executeBusiness(RetryHelper retryHelper, UserInfo user) {
 
-        retryHelper.doRetry(new int[]{6, 12}, new RetryTask() {
+        retryHelper.doRetry(new int[]{6, 12}, new Task() {
             @Override
             public void run() throws Exception {
                 user.setName("Henry");
