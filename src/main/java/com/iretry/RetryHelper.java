@@ -18,7 +18,7 @@ import java.util.concurrent.Executor;
 @Slf4j
 public class RetryHelper {
 
-    private final static int DEFAULT_RETRY_TIME = 6;
+    private final static int DEFAULT_RETRY_TIMES = 6;
 
     private final static int[] DEFAULT_DELAY_SECONDS = {3, 30, 180, 600, 1800, 3600};
 
@@ -42,7 +42,7 @@ public class RetryHelper {
     }
 
     public  void doRetry(RetryTask retryTask){
-        doRetry(DEFAULT_RETRY_TIME, DEFAULT_DELAY_SECONDS, retryTask);
+        doRetry(DEFAULT_RETRY_TIMES, DEFAULT_DELAY_SECONDS, retryTask);
     }
 
     public  void doRetry(int maxRetryTime, RetryTask retryTask){
@@ -66,18 +66,18 @@ public class RetryHelper {
     private static class RetryRunnable implements Runnable {
 
         private final RetryTask retryTask;
-        private final int maxRetryTime;
+        private final int maxRetryTimes;
         private final int[] retryDelaySeconds;
 
         private int retryTime;
         private volatile long nextRetryMillis;
 
-        public RetryRunnable(final int maxRetryTime, final int[] retryDelaySeconds, final RetryTask retryTask) {
+        public RetryRunnable(final int maxRetryTimes, final int[] retryDelaySeconds, final RetryTask retryTask) {
             this.retryTask = retryTask;
-            if (maxRetryTime <= 0) {
-                this.maxRetryTime = DEFAULT_RETRY_TIME;
+            if (maxRetryTimes <= 0) {
+                this.maxRetryTimes = DEFAULT_RETRY_TIMES;
             }else {
-                this.maxRetryTime = maxRetryTime;
+                this.maxRetryTimes = maxRetryTimes;
             }
             if (retryDelaySeconds == null || retryDelaySeconds.length == 0) {
                 this.retryDelaySeconds = DEFAULT_DELAY_SECONDS;
@@ -92,7 +92,7 @@ public class RetryHelper {
                 retryTask.run();
             } catch (Throwable e) {
                 int sleepSeconds = retryTime < retryDelaySeconds.length ? retryDelaySeconds[retryTime] : retryDelaySeconds[retryDelaySeconds.length - 1];
-                if (retryTime < maxRetryTime) {
+                if (retryTime < maxRetryTimes) {
                     if (retryTime == 0){
                         TASK_QUEUE.add(this);
                         log.error("task execute error, " + sleepSeconds + " seconds do next... ", e);
