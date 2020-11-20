@@ -69,7 +69,7 @@ public class RetryHelper {
         private final int maxRetryTimes;
         private final int[] retryDelaySeconds;
 
-        private int retryTime;
+        private int retryTimes;
         private volatile long nextRetryMillis;
 
         public RetryRunnable(final int maxRetryTimes, final int[] retryDelaySeconds, final RetryTask retryTask) {
@@ -91,22 +91,22 @@ public class RetryHelper {
             try {
                 retryTask.run();
             } catch (Throwable e) {
-                int sleepSeconds = retryTime < retryDelaySeconds.length ? retryDelaySeconds[retryTime] : retryDelaySeconds[retryDelaySeconds.length - 1];
-                if (retryTime < maxRetryTimes) {
-                    if (retryTime == 0){
+                int sleepSeconds = retryTimes < retryDelaySeconds.length ? retryDelaySeconds[retryTimes] : retryDelaySeconds[retryDelaySeconds.length - 1];
+                if (retryTimes < maxRetryTimes) {
+                    if (retryTimes == 0){
                         TASK_QUEUE.add(this);
                         log.error("task execute error, " + sleepSeconds + " seconds do next... ", e);
                     }else {
-                        log.error("retry " + retryTime + " times error, " + sleepSeconds + " seconds do next... ", e);
+                        log.error("retry " + retryTimes + " times error, " + sleepSeconds + " seconds do next... ", e);
                     }
                     nextRetryMillis = System.currentTimeMillis() + sleepSeconds * 1000;
                 }else {
-                    log.error("retry " + retryTime + " times error", e);
+                    log.error("retry " + retryTimes + " times error", e);
                     log.error("retry snapshot: {}", JSON.toJSONStringWithDateFormat(retryTask.snapshot(), "yyyy-MM-dd HH:mm:ss"));
                     TASK_QUEUE.remove(this);
                     retryTask.retryFailed(e);
                 }
-                retryTime++;
+                retryTimes++;
             }
         }
     }
