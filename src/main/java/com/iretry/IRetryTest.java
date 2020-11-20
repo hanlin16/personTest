@@ -31,30 +31,33 @@ public class IRetryTest {
 
         RetryHelper retryHelper = new RetryHelper(executor, scheduler);
         IRetryTest iRetryTest = new IRetryTest();
-        iRetryTest.executeBusiness(retryHelper, new InfoVO("Jack"));
+        iRetryTest.executeBusiness(retryHelper, new UserInfo("Jack"));
 
 
     }
 
-    private void executeBusiness(RetryHelper retryHelper, InfoVO vo) {
+    private void executeBusiness(RetryHelper retryHelper, UserInfo user) {
 
-        retryHelper.doRetry(new int[]{60, 180}, new RetryTask() {
+        retryHelper.doRetry(new int[]{6, 12}, new RetryTask() {
             @Override
             public void run() throws Exception {
-                System.out.println("执行业务" + vo.getName());
+                user.setName("Henry");
+                System.out.println("执行业务,给员工修改名称为：" + user.getName());
                 Integer a = 1 / 0;
 
             }
 
-            //最终失败后，本地租户并发回滚
+            //最终失败后，回滚
             @Override
             public void retryFailed(Throwable e) {
+                user.setName("Jack");
                 System.out.println("重试调度失败，租户并发回滚...");
+                System.out.println("用户名称为：" + user.getName());
             }
 
             @Override
             public Object snapshot() {
-                return vo;
+                return user;
             }
         });
     }
