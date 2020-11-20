@@ -23,8 +23,8 @@ public class TestC3p0 {
             dataSource = new ComboPooledDataSource();
 
             dataSource.setUser("root");
-            dataSource.setPassword("Chrdw@2016*");
-            dataSource.setJdbcUrl("jdbc:mysql://192.168.250.91:3306/foo?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=false");
+            dataSource.setPassword("root");
+            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/work_dispatch?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=false");
             dataSource.setDriverClass("com.mysql.jdbc.Driver");
             dataSource.setInitialPoolSize(2);//初始化池大小
             dataSource.setMaxIdleTime(30);//最大空闲时间
