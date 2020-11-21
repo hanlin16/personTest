@@ -12,28 +12,12 @@ import java.util.concurrent.ThreadPoolExecutor;
 @Slf4j
 public class IRetryTest {
 
-    public static ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-    public static ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
+    public static void main(String[] args) {
+        RetryUtils retryUtils = new RetryUtils();
 
-    static {
-        //配置核心线程数
-        executor.setCorePoolSize(10);
-        //配置最大线程数
-        executor.setMaxPoolSize(20);
-        //配置队列大小
-        executor.setQueueCapacity(1000);
-        //配置线程池中的线程的名称前缀
-        executor.setThreadNamePrefix("async_");
-        // rejection-policy：当pool已经达到max size的时候，如何处理新任务
-        // CALLER_RUNS：不在新线程中执行任务，而是有调用者所在的线程来执行
-        executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
-        //执行初始化
-        executor.initialize();
+        IRetryTest iRetryTest = new IRetryTest();
+        iRetryTest.executeBusiness(retryUtils, new IRetryTest().new UserInfo("Jack"));
 
-        scheduler.setThreadNamePrefix("scheduler_");
-        scheduler.setPoolSize(5);
-        scheduler.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
-        scheduler.initialize();
     }
 
     //需要重试的业务方法
@@ -63,22 +47,12 @@ public class IRetryTest {
         });
     }
 
-    public static void main(String[] args) {
-        RetryUtils retryUtils = new RetryUtils(executor, scheduler);
-
-        IRetryTest iRetryTest = new IRetryTest();
-        iRetryTest.executeBusiness(retryUtils, new IRetryTest().new UserInfo("Jack"));
-
-    }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     private class UserInfo {
-
         private String name;
-
-
     }
 
 
