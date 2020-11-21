@@ -23,7 +23,7 @@ public class TasksTestLock extends Thread {
 
             lock.lock();
 
-            System.out.println("thread_" + id + " num:" + num);
+            System.out.println("Thread" + id + " num:" + num);
             num++;
 
             condition.signal();
