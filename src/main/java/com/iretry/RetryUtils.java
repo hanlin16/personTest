@@ -98,7 +98,7 @@ public class RetryUtils {
                 if (retryTimes < maxRetryTimes) {
                     if (retryTimes == 0) {
                         TASK_QUEUE.add(this);
-                        log.error("task execute error, " + sleepSeconds + " seconds do next... ", e);
+                        log.error("task executed error, " + sleepSeconds + " seconds do next... ", e);
                     } else {
                         log.error("retry " + retryTimes + " times error, " + sleepSeconds + " seconds do next... ", e);
                     }
