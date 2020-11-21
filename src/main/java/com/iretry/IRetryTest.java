@@ -1,5 +1,8 @@
 package com.iretry;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
@@ -64,8 +67,19 @@ public class IRetryTest {
         RetryUtils retryUtils = new RetryUtils(executor, scheduler);
 
         IRetryTest iRetryTest = new IRetryTest();
-        iRetryTest.executeBusiness(retryUtils, new UserInfo("Jack"));
+        iRetryTest.executeBusiness(retryUtils, new IRetryTest().new UserInfo("Jack"));
 
     }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    private class UserInfo {
+
+        private String name;
+
+
+    }
+
 
 }
