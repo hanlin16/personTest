@@ -16,7 +16,7 @@ public class TasksTest extends Thread {
     public void run() {
         while (atomic.get() <= 12) {
             while (atomic.get() % 3 == id) {
-                System.out.println("thread_" + id + " id 执行结果:" + atomic.get());
+                System.out.println("thread_" + id + " 执行结果:" + atomic.get());
                 atomic.incrementAndGet();
             }
         }
