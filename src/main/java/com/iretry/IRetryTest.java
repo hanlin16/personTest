@@ -29,16 +29,16 @@ public class IRetryTest {
         scheduler.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
         scheduler.initialize();
 
-        RetryHelper retryHelper = new RetryHelper(executor, scheduler);
+        RetryUtils retryUtils = new RetryUtils(executor, scheduler);
         IRetryTest iRetryTest = new IRetryTest();
-        iRetryTest.executeBusiness(retryHelper, new UserInfo("Jack"));
+        iRetryTest.executeBusiness(retryUtils, new UserInfo("Jack"));
 
 
     }
 
-    private void executeBusiness(RetryHelper retryHelper, UserInfo user) {
+    private void executeBusiness(RetryUtils retryUtils, UserInfo user) {
 
-        retryHelper.doRetry(new int[]{6, 12}, new Task() {
+        retryUtils.doRetry(new int[]{6, 12}, new Task() {
             @Override
             public void run() throws Exception {
                 user.setName("Henry");
@@ -51,7 +51,7 @@ public class IRetryTest {
             @Override
             public void retryFailed(Throwable e) {
                 user.setName("Jack");
-                System.out.println("重试调度失败，租户并发回滚...");
+                System.out.println("重试失败，业务数据回滚...");
                 System.out.println("用户名称为：" + user.getName());
             }
 
