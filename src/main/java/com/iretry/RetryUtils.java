@@ -88,13 +88,16 @@ public class RetryUtils {
             }
         }
 
-        //业务执行方法
+        //执行业务方法
         @Override
         public void run() {
             try {
+
                 task.run();
+
             } catch (Throwable e) {
                 int sleepSeconds = retryTimes < retryDelaySeconds.length ? retryDelaySeconds[retryTimes] : retryDelaySeconds[retryDelaySeconds.length - 1];
+
                 if (retryTimes < maxRetryTimes) {
                     if (retryTimes == 0) {
                         TASK_QUEUE.add(this);
@@ -103,13 +106,18 @@ public class RetryUtils {
                         log.error("retry " + retryTimes + " times error, " + sleepSeconds + " seconds do next... ", e);
                     }
                     nextRetryMillis = System.currentTimeMillis() + sleepSeconds * 1000;
+
                 } else {
                     log.error("retry " + retryTimes + " times error", e);
                     log.error("retry snapshot: {}", JSON.toJSONStringWithDateFormat(task.snapshot(), "yyyy-MM-dd HH:mm:ss"));
+
                     TASK_QUEUE.remove(this);
                     task.retryFailed(e);
+
                 }
+
                 retryTimes++;
+
             }
         }
     }
