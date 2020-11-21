@@ -9,8 +9,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 @Slf4j
 public class IRetryTest {
 
-    public static void main(String[] args) {
-        ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+    public static ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+    public static ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
+
+    static {
         //配置核心线程数
         executor.setCorePoolSize(10);
         //配置最大线程数
@@ -25,19 +27,13 @@ public class IRetryTest {
         //执行初始化
         executor.initialize();
 
-        ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
         scheduler.setThreadNamePrefix("scheduler_");
         scheduler.setPoolSize(5);
         scheduler.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
         scheduler.initialize();
-
-        RetryUtils retryUtils = new RetryUtils(executor, scheduler);
-        IRetryTest iRetryTest = new IRetryTest();
-        iRetryTest.executeBusiness(retryUtils, new UserInfo("Jack"));
-
-
     }
 
+    //需要重试的业务方法
     private void executeBusiness(RetryUtils retryUtils, UserInfo user) {
 
         retryUtils.doRetry(new int[]{6, 12}, new Task() {
@@ -63,4 +59,13 @@ public class IRetryTest {
             }
         });
     }
+
+    public static void main(String[] args) {
+        RetryUtils retryUtils = new RetryUtils(executor, scheduler);
+
+        IRetryTest iRetryTest = new IRetryTest();
+        iRetryTest.executeBusiness(retryUtils, new UserInfo("Jack"));
+
+    }
+
 }

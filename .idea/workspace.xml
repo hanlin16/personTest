@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="820c68e0-a257-43c9-af2e-8ce5fa6e49a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/iretry/IRetryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iretry/IRetryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iretry/RetryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iretry/RetryUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/iretry/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/iretry/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/IRetryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="388">
+              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/RetryUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="160">
+              <caret line="25" column="78" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="78" />
               <folding>
                 <element signature="e#1380#1381#0" expanded="true" />
                 <element signature="e#1502#1503#0" expanded="true" />
@@ -45,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="e#188#189#0" expanded="true" />
               </folding>
@@ -54,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -85,9 +82,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iretry/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iretry/RetryTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iretry/RetryHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iretry/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iretry/RetryUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iretry/IRetryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iretry/Task.java" />
       </list>
     </option>
   </component>
@@ -309,11 +306,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605947170266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="个人">
+      <created>1605947366992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605947366992</updated>
+    </task>
+    <task id="LOCAL-00006" summary="个人">
+      <created>1605947497738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605947497738</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6255000" />
+    <option name="totallyTimeSpent" value="6566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -431,10 +442,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/RetryUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="160">
+          <caret line="25" column="78" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="78" />
           <folding>
             <element signature="e#1380#1381#0" expanded="true" />
             <element signature="e#1502#1503#0" expanded="true" />
@@ -444,25 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/IRetryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iretry/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="388">
+          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
         </state>
       </provider>
     </entry>
