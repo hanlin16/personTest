@@ -1,5 +1,7 @@
 package com.thread;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class TasksTest extends Thread {
@@ -12,7 +14,7 @@ public class TasksTest extends Thread {
 
     @Override
     public void run() {
-        while (atomic.get() <= 11) {
+        while (atomic.get() <= 12) {
             while (atomic.get() % 3 == id) {
                 System.out.println("thread_" + id + " id 执行结果:" + atomic.get());
                 atomic.incrementAndGet();
@@ -24,8 +26,14 @@ public class TasksTest extends Thread {
         Thread thread0 = new TasksTest(0);
         Thread thread1 = new TasksTest(1);
         Thread thread2 = new TasksTest(2);
-        thread0.start();
-        thread1.start();
-        thread2.start();
+
+        ExecutorService exec = Executors.newFixedThreadPool(3);
+
+        exec.submit(thread0);
+        exec.submit(thread1);
+        exec.submit(thread2);
+
+        exec.shutdown();
+
     }
 }
