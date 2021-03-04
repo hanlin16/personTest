@@ -1,7 +1,8 @@
 package field;
 
+import com.alibaba.fastjson.JSON;
 import field.vo.FiledOTO;
-import field.vo.TenantFieldOTO;
+import field.vo.TotalFieldOTO;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -12,10 +13,9 @@ import java.util.List;
 
 public class TestFiled {
 
-    public static List<TenantFieldOTO> getInfo(Object oto) {
-        List<TenantFieldOTO> list = new ArrayList<>();
-
-        Field[] newFields = oto.getClass().getDeclaredFields();
+    public static List<TotalFieldOTO> getInfo(Class<?> clazz) {
+        List<TotalFieldOTO> list = new ArrayList<>();
+        Field[] newFields = clazz.getDeclaredFields();
         try {
             for (Field newField : newFields) {
                 //去除静态属性
@@ -27,15 +27,18 @@ public class TestFiled {
                 String fieldName = newField.getName();
 
                 ApiModelProperty property = newField.getAnnotation(ApiModelProperty.class);
-                if(null == property){
-                    System.out.println("**********");
-                }
+
                 String value = property.value();
 
-                TenantFieldOTO tenantFieldOTO = new TenantFieldOTO(fieldName, value);
-                list.add(tenantFieldOTO);
+                TotalFieldOTO totalFieldOTO = new TotalFieldOTO(fieldName, value);
+                list.add(totalFieldOTO);
 
-                tenantFieldOTO.setChild(getInfo(newField));
+                Class<?> fieldClass = newField.getType();
+
+                if (!fieldClass.isAnnotationPresent(ApiModel.class)) {
+                    continue;
+                }
+                totalFieldOTO.setChild(getInfo(fieldClass));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -46,8 +49,9 @@ public class TestFiled {
     }
 
     public static void main(String[] args) {
-        FiledOTO oto = new FiledOTO();
-        List<TenantFieldOTO> list = getInfo(oto);
+        List<TotalFieldOTO> list = getInfo(FiledOTO.class);
         System.out.println(list);
+        String str = JSON.toJSONString(list);
+        System.out.println(str);
     }
 }

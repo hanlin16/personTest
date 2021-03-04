@@ -8,9 +8,23 @@ import lombok.Data;
 @ApiModel(description = " 出参")
 public class FiledOTO {
 
-    @ApiModelProperty("客户订单")
-    private OrderFiledOTO order = new OrderFiledOTO();
+    @ApiModelProperty("订单")
+    private OrderOTO order = new OrderOTO();
+
+    @ApiModelProperty("险种")
+    private OrderKindOTO orderKind = new OrderKindOTO();
+
+    @ApiModelProperty("车辆")
+    private OrderCarOTO orderCar = new OrderCarOTO();
+
+    @ApiModelProperty("投保人")
+    private OrderPolicyOTO orderPolicy = new OrderPolicyOTO();
+
+    @ApiModelProperty("受益人")
+    private OrderBenefitOTO orderBenefit = new OrderBenefitOTO();
+
 
     @ApiModelProperty("客户车辆")
-     private OrderCarOTO customerCar = new OrderCarOTO();
+    private OrderCarOTO customerCar = new OrderCarOTO();
+
 }
