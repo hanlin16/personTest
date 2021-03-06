@@ -15,7 +15,7 @@ public class FiledOTO {
     private OrderKindOTO orderKind = new OrderKindOTO();
 
     @ApiModelProperty("车辆")
-    private OrderCarOTO orderCar = new OrderCarOTO();
+    private OrderCarOTO car = new OrderCarOTO();
 
     @ApiModelProperty("投保人")
     private OrderPolicyOTO orderPolicy = new OrderPolicyOTO();

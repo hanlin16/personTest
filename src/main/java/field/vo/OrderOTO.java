@@ -25,11 +25,14 @@ public class OrderOTO{
      @ApiModelProperty("保险产品类型")
      private Short productType;
 
+     @ApiModelProperty("车牌号")
+     private String licenseNo;
+
      @ApiModelProperty("投保份数")
      private Integer num;
 
      @ApiModelProperty("保额")
-     private String amnout;
+     private String amount;
 
      @ApiModelProperty("保费")
      private String premium;
