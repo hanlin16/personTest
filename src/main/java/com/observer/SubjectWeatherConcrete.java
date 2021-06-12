@@ -6,7 +6,7 @@ import lombok.Data;
  * 具体的目标对象，负责把有关状态存入到相应的观察者对象中
  */
 @Data
-public class SubjectWeatherConcrete extends SubjectWeather {
+public class SubjectWeatherConcrete extends Subject {
 
     /**
      * 获取天气的内容信息
