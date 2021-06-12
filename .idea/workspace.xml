@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cab56-c5c4-41c2-a830-209aefa3b276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo2/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo2/Y.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/getClass/vo2/Z.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/secret/EnPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/getClass/TestRe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/getClass/TestRe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,54 +25,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/TestRe.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="157" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="157" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/vo2/X.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="26" selection-end-line="9" />
+            <state relative-caret-position="231">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/vo2/Z.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/secret/EnPassword.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="483">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,11 +97,19 @@
       <find>(Method)</find>
       <find>customerCar</find>
       <find>注解</find>
+      <find>@author zc</find>
+      <find>@version 1.0 2017-08-29</find>
+      <find>@author Liuxd</find>
+      <find>@describe</find>
+      <find>黄明</find>
+      <find>天气信息</find>
     </findStrings>
     <replaceStrings>
       <replace>listener</replace>
       <replace>龙猫</replace>
       <replace>:</replace>
+      <replace>@author Liuxd</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -116,12 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thread/TasksWithoutLockTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/last/LastThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/TestTimes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stream/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lambda/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/TestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lambda/TestCase1.java" />
@@ -158,6 +154,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/getClass/TestRe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/secret/EnPassword.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/ConcreteWeatherSubjectweather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/TestSubObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/ConcreteObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectConcrete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/ConcreteWeatherSubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/WeatherSubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectConcreteWeather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" />
       </list>
     </option>
   </component>
@@ -191,9 +202,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="904" />
-    <option name="y" value="105" />
-    <option name="width" value="974" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1339" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -261,6 +272,15 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="getClass" type="462c0819:PsiDirectoryNode" />
               <item name="vo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liuxd_personTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liuxd_personTest" type="b2602c69:ProjectViewProjectNode" />
@@ -448,7 +468,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestArrayToString">
+  <component name="RunManager">
     <configuration name="ClassUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.getClass.ClassUtil" />
       <module name="liuxd_personTest" />
@@ -501,12 +521,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="field.TestTime" />
+    <configuration name="TestSubjectObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.observer.TestSubjectObserver" />
       <module name="liuxd_personTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="field.*" />
+          <option name="PATTERN" value="com.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,11 +536,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSubjectObserver" />
         <item itemvalue="Application.TestArrayToString" />
         <item itemvalue="Application.EnPassword" />
         <item itemvalue="Application.TestRe" />
         <item itemvalue="Application.ClassUtil" />
-        <item itemvalue="Application.TestTime" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +580,8 @@
       <workItem from="1618885140519" duration="1061000" />
       <workItem from="1618987776259" duration="7679000" />
       <workItem from="1619692742700" duration="1606000" />
-      <workItem from="1622167846280" duration="133000" />
+      <workItem from="1622167846280" duration="771000" />
+      <workItem from="1623479991134" duration="3668000" />
     </task>
     <task id="LOCAL-00001" summary="geren">
       <created>1606013572614</created>
@@ -611,17 +632,24 @@
       <option name="project" value="LOCAL" />
       <updated>1618990646050</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="geren">
+      <created>1622167986507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622167986507</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41983000" />
+    <option name="totallyTimeSpent" value="46289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.1475322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.18079399" />
       <window_info id="Structure" order="1" sideWeight="0.13043478" side_tool="true" weight="0.17811158" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -630,8 +658,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3003337" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.23" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39222223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -641,7 +669,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" weight="0.21468298" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.12888889" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.23222223" />
@@ -659,7 +687,7 @@
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.23551503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.20976394" />
       <window_info id="Structure" order="1" sideWeight="0.13043478" side_tool="true" weight="0.17811158" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -668,8 +696,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3003337" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.31777778" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39222223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,7 +707,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" weight="0.21468298" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.12888889" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.23222223" />
@@ -845,27 +873,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/jvm/model/ByteCodeSample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/thread/CycleWait.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/thread/CASCase.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/reflect/ClassLoaderChecker.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/socket/TCPClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/thread/CoarseSync.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/thread/NotificationDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javabasic/jvm/gc/NormalObject.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1156,19 +1163,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/secret/EnPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/TestRe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
+        <state relative-caret-position="3150">
           <caret line="157" column="5" selection-start-line="27" selection-start-column="3" selection-end-line="157" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1190,13 +1187,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/secret/EnPassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="1176">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/getClass/TestArrayToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectConcrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>

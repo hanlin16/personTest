@@ -18,5 +18,8 @@ public class TestArrayToString {
 
         System.out.println(s1);
         System.out.println(s2);
+
+        String s = JSON.toJSONString(null);
+        System.out.println(s);
     }
 }
