@@ -32,7 +32,7 @@ public class Subject {
      */
     protected void notifyObserver() {
         observers.forEach(observer -> {
-            observer.update(this);
+            observer.receive(this);
         });
     }
 }

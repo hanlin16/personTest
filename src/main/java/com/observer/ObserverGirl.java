@@ -21,8 +21,8 @@ public class ObserverGirl implements Observer {
 
     //获取目标类的状态同步到观察者的状态中
     @Override
-    public void update(Subject subject) {
-        weatherContent = ((SubjectWeatherConcrete) subject).getWeatherContent();
+    public void receive(Subject subject) {
+        weatherContent = ((SubjectWeather) subject).getWeatherContent();
         System.out.println(observerName + " 收到了天气信息【" + weatherContent + "】；准备去做：" + remindThing);
     }
 

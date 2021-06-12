@@ -9,6 +9,6 @@ public interface Observer {
      * 更新的接口
      * @param subject 传入的目标对象，方便获取相应的目标对象的状态
      */
-    void update(Subject subject);
+    void receive(Subject subject);
 
 }

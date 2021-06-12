@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b30cab56-c5c4-41c2-a830-209aefa3b276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="189">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -34,35 +35,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="84">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="168">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="483">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -159,16 +160,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/observer/ConcreteWeatherSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/WeatherSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectConcreteWeather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/ObserverConcrete.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/ObserverGril.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/Observer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java" />
       </list>
     </option>
   </component>
@@ -582,7 +583,7 @@
       <workItem from="1618987776259" duration="7679000" />
       <workItem from="1619692742700" duration="1606000" />
       <workItem from="1622167846280" duration="771000" />
-      <workItem from="1623479991134" duration="4352000" />
+      <workItem from="1623479991134" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="geren">
       <created>1606013572614</created>
@@ -654,17 +655,24 @@
       <option name="project" value="LOCAL" />
       <updated>1623484123591</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="geren">
+      <created>1623484350507</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623484350507</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46973000" />
+    <option name="totallyTimeSpent" value="47300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.18079399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8695652" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" sideWeight="0.13043478" side_tool="true" weight="0.17811158" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -673,7 +681,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39333335" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39222223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1230,13 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1244,38 +1245,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeatherConcrete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/TestSubjectObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="84">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/SubjectWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverGirl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="483">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/observer/ObserverMom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
