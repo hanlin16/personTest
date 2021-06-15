@@ -1,11 +1,9 @@
 package com.observer;
 
-import lombok.Data;
 
 /**
  * 具体的观察者对象，实现更新的方法，使自身的状态和目标的状态保持一致
  */
-@Data
 public class ObserverGirl implements Observer {
     //观察者的名称，是谁收到了这个信息
     private String observerName;
